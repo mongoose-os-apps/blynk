@@ -1,0 +1,11 @@
+name: blynk
+# arch: PLATFORM
+version: 1.0
+skeleton_version: 2017-03-17
+sources:
+  - src
+filesystem:
+  - fs
+libs:
+  - origin: https://github.com/cesanta/mos-libs/blynk/tree/master
+  - origin: https://github.com/cesanta/mos-libs/mjs/tree/master
