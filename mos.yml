@@ -7,5 +7,5 @@ sources:
 filesystem:
   - fs
 libs:
-  - origin: https://github.com/cesanta/mos-libs/blynk/tree/master
-  - origin: https://github.com/cesanta/mos-libs/mjs/tree/master
+  - origin: https://github.com/mongoose-os-libs/mjs
+  - origin: https://github.com/mongoose-os-libs/blynk
