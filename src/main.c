@@ -1,5 +1,7 @@
+#include "fw/src/mgos_app.h"
+
 #include "blynk.h"
-#include "mjs.h"
+#include "mos_mjs.h"
 
 enum mgos_app_init_result mgos_app_init(void) {
   blynk_init();
