@@ -1,4 +1,6 @@
+author: mongoose-os
 name: blynk
+descrition: Blynk mobile app integration
 # arch: PLATFORM
 version: 1.0
 skeleton_version: 2017-05-18
@@ -9,3 +11,6 @@ filesystem:
 libs:
   - origin: https://github.com/mongoose-os-libs/mjs
   - origin: https://github.com/mongoose-os-libs/blynk
+tags:
+  - js      # Supports JavaScript
+  - blynk   # Can serve as an example for Blynk library
