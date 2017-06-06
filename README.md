@@ -1,14 +1,5 @@
 # Using Blynk with Mongoose OS
 
-## How to install this app
-
-- Install and start [mos tool](https://mongoose-os.com/software.html)
-- Switch to the Project page, find and import this app, build and flash it:
-
-<p align="center">
-  <img src="https://mongoose-os.com/images/app1.gif" width="75%">
-</p>
-
 ## Overview
 
 This example shows how to use MongooseOS with Blynk mobile framework.
@@ -26,3 +17,12 @@ turn a built-in NodeMCU LED on/off, and a graph will show free RAM.
 
 You can easily add your own handlers for Blynk virtual pins, in either C
 or JavaScript.
+
+## How to install this app
+
+- Install and start [mos tool](https://mongoose-os.com/software.html)
+- Switch to the Project page, find and import this app, build and flash it:
+
+<p align="center">
+  <img src="https://mongoose-os.com/images/app1.gif" width="75%">
+</p>
