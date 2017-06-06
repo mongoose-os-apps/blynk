@@ -1,9 +1,20 @@
-# MongooseOS and Blynk example
+# Using Blynk with Mongoose OS
+
+## How to install this app
+
+- Install and start [mos tool](https://mongoose-os.com/software.html)
+- Switch to the Project page, find and import this app, build and flash it:
+
+<p align="center">
+  <img src="https://mongoose-os.com/images/app1.gif" width="75%">
+</p>
+
+## Overview
 
 This example shows how to use MongooseOS with Blynk mobile framework.
-Import this app, go to device configuration and specify
+Go to device configuration and specify
 `blynk.auth` setting to your Blynk access token. Or, alternatively,
-run the following console command:
+run the following console command (from the terminal or "Terminal" tab in Web UI):
 
 ```bash
 mos config-set blynk.auth=YOUR_TOKEN

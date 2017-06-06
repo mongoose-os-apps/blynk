@@ -1,10 +1,5 @@
 author: mongoose-os
-description: Blynk mobile app integration example
-tags:
-  - js      # Supports JavaScript
-  - c       # Supports C
-  - mobile  # Mobile app category
-  - example
+description: Using Blynk mobile app with Mongoose OS
 version: 1.0
 
 sources:
@@ -14,5 +9,11 @@ filesystem:
 libs:
   - origin: https://github.com/mongoose-os-libs/mjs
   - origin: https://github.com/mongoose-os-libs/blynk
+
+tags:
+  - js
+  - c
+  - mobile
+  - example
 
 skeleton_version: 2017-05-18
