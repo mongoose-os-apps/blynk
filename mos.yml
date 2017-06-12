@@ -19,8 +19,6 @@ libs:
 
     # libs necessary for the current app
   - origin: https://github.com/mongoose-os-libs/blynk
-
-    # mjs should go last, because user script might use some of the other libs
   - origin: https://github.com/mongoose-os-libs/mjs
 tags:
   - js
