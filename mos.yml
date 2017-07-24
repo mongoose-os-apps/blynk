@@ -21,6 +21,7 @@ libs:
     # libs necessary for the current app
   - origin: https://github.com/mongoose-os-libs/blynk
   - origin: https://github.com/mongoose-os-libs/mjs
+  - origin: https://github.com/mongoose-os-libs/wifi
 tags:
   - js
   - c
