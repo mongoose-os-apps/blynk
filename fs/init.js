@@ -2,7 +2,7 @@ load('api_gpio.js');
 load('api_blynk.js');
 load('api_sys.js');
 
-Blynk.setHandler(function(conn, cmd, id, pin, val) {
+Blynk.setHandler(function(conn, cmd, pin, val, id) {
   let ram = Sys.free_ram() / 1024;
   if (cmd === 'vr') {
   	// When reading any virtual pin, report free RAM in KB
