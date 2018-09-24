@@ -11,7 +11,8 @@ sources:
 filesystem:
   - fs
 libs:
-    # common mgos libs
+  # common mgos libs
+  - origin: https://github.com/mongoose-os-libs/boards
   - origin: https://github.com/mongoose-os-libs/ca-bundle
   - origin: https://github.com/mongoose-os-libs/rpc-service-config
   - origin: https://github.com/mongoose-os-libs/rpc-service-fs
@@ -19,7 +20,7 @@ libs:
   - origin: https://github.com/mongoose-os-libs/spi
   - origin: https://github.com/mongoose-os-libs/i2c
 
-    # libs necessary for the current app
+  # libs necessary for the current app
   - origin: https://github.com/mongoose-os-libs/blynk
   - origin: https://github.com/mongoose-os-libs/mjs
   - origin: https://github.com/mongoose-os-libs/wifi
